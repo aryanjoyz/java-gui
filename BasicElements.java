@@ -1,13 +1,13 @@
-import java.swing.JFrame;
+import javax.swing.JFrame;
 
 public class BasicElements{
 
 	public static void main (String args []){
-		JFrame myFrame = new Jframe();
+		JFrame myFrame = new JFrame();
 
 		myFrame.setDefaultCloseOperation(myFrame.EXIT_ON_CLOSE);
-		myFrame.setVisble(true);
-		myFrame.setSize(500.600);
+		myFrame.setVisible(true);
+		myFrame.setSize(900, 600);
 		
 		System.out.println("basic java elements");
 	}
